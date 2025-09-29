@@ -29,3 +29,11 @@ span{
 .btn{
  color: white;
 }
+ 
+.about-me h1{
+
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 50px;
+
+}
