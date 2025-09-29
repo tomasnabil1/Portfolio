@@ -46,3 +46,16 @@ span {
 
 }
 
+.animate__animated.ananimate__slideInRight {
+    --animate-duration: 3s;
+
+}
+
+.animate__animated.ananimate__slideInLeft {
+    --animate-duration: 0.9s;
+}
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 3s;
+}
