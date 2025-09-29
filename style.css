@@ -7,7 +7,8 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: rgb(20, 14, 14);
-      padding-top: 70px;
+    padding-top: 70px;
+    overflow-x: hidden;
 }
 
 
@@ -19,21 +20,29 @@ body {
 }
 
 .navbar-brand {
-  font-family: "Caveat", cursive;
+    font-family: "Caveat", cursive;
     font-weight: 700;
     font-size: 30px;
 }
-span{
+
+span {
     color: rgb(33, 33, 127);
 }
-.btn{
- color: white;
+
+.btn {
+    color: white;
 }
- 
-.about-me h1{
+
+.about-me h1 {
 
     font-family: "Caveat", cursive;
     font-weight: 700;
     font-size: 50px;
+}
+
+.about-me .who {
+    color: rgb(33, 33, 127);
+
 
 }
+
