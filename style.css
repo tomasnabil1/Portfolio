@@ -59,3 +59,94 @@ span {
     --animate-duration: 800ms;
     --animate-delay: 3s;
 }
+
+.skills h1 {
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 90px;
+}
+
+.skills .icon {
+    font-size: 40px;
+}
+
+.icon-row {
+    display: flex;
+    gap: 20px;
+    /* حجم الأيقونات */
+}
+
+.icon-row {
+    display: flex;
+    overflow: hidden;
+    /* عشان لو خرجوا برا ما يظهرش سكرول */
+}
+
+.icon-row .icon{
+    position: relative;
+    animation: march 11s  linear infinite  ;
+
+}
+.icon-row .txt{
+    position: relative;
+    animation: march 11s linear infinite ;
+
+}
+
+@keyframes march {
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(-100vw);
+        /* يمشي لحد ما يختفي من الشاشة */
+    }
+}
+
+/* تأخير مختلف يخليهم ورا بعض */
+.icon-row i:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.icon-row i:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.icon-row i:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.icon-row i:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.edu{
+    margin-top: 100px;
+}
+
+.eelu{
+    font-size: 40px;
+    color: royalblue;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.btn2 {
+  transition: transform 250ms cubic-bezier(.2,.9,.3,1), box-shadow 250ms;
+  will-change: transform, box-shadow;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}
+.btn2:hover {
+    background-color: rgb(67, 56, 225);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+.btn2:active {
+  transform: translateY(-4px) scale(1.02); /* لمسة ضغط */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
